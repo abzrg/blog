@@ -1,0 +1,81 @@
+baseURL: http://reverseila.github.io/
+languageCode: en-us
+title: Ali's blog
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: "Welcome to my blog. Here, I will post stuff about
+    programming, UNIX stuff, maybe OpenFOAM, and other musings."
+  socialIcons:
+    - name: "cv"
+      url: "https://github.com/reverseila/cv/raw/master/cv.pdf"
+    - name: "googlescholar"
+      url: "https://scholar.google.com/citations?user=GnrTERgAAAAJ&hl=en"
+    - name: "twitter"
+      url: "https://twitter.com/reverseila"
+    - name: "CFD-online"
+      url: "https://www.cfd-online.com/Forums/members/reverseila.html"
+
+
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Ali's Blog
+  description: "Ali's blog"
+  keywords: ['Blog', 'OpenFOAM', 'Programming', 'Shell']
+
+  # author: 'Ali Bozorgzadeh'
+  # author: ["Me", "You"] # multiple authors
+  # images: ["/static/"]
+  DateFormat: "January 2, 2006"
+
+  defaultTheme: light # dark, light, auto
+  disableThemeToggle: false
+
+  cover:
+    # When clicking on image, opens it in a newtab
+    linkFullImages: true
+  # Adds a copy button in code block to copy the code it contains
+  ShowCodeCopyButtons: true
+
+  # ShowRssButtonInSectionTermList: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowPostNavLinks: false
+  # ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  # comments: false
+  # hidemeta: false
+  # hideSummary: false
+  # showtoc: false
+  # tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
+    safari_pinned_tab: "favicon/favicon.ico"
+
+
+
+
+menu:
+  main:
+    - identifier: archives
+      name: 'Archives'
+      url: /archives/
+      weight: 10
+
+    - identifier: tags
+      name: 'Tags'
+      url: /tags/
+      weight: 20
+

@@ -1,0 +1,4 @@
+[submodule "reverseila/public"]
+	path = reverseila/public
+	url = git@github.com:reverseila/reverseila.github.io.git
+	branch = main
