@@ -1,4 +1,4 @@
-baseURL: http://reverseila.github.io/
+baseURL: http://abzrg.github.io/
 languageCode: en-us
 title: Ali's blog
 theme: PaperMod
@@ -10,13 +10,13 @@ params:
     programming, UNIX stuff, maybe OpenFOAM, and other musings."
   socialIcons:
     - name: "cv"
-      url: "https://github.com/reverseila/cv/raw/master/cv.pdf"
+      url: "https://github.com/abzrg/cv/raw/master/cv.pdf"
     - name: "googlescholar"
       url: "https://scholar.google.com/citations?user=GnrTERgAAAAJ&hl=en"
     - name: "twitter"
-      url: "https://twitter.com/reverseila"
+      url: "https://twitter.com/abzrg"
     - name: "CFD-online"
-      url: "https://www.cfd-online.com/Forums/members/reverseila.html"
+      url: "https://www.cfd-online.com/Forums/members/abzrg.html"
 
 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
