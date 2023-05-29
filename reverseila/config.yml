@@ -3,21 +3,49 @@ languageCode: en-us
 title: Ali's blog
 theme: PaperMod
 
-params:
-  homeInfoParams:
-    Title: "Hello Stranger"
-    Content: "Welcome to my blog. Here, I will post stuff about
-    programming, UNIX stuff, maybe OpenFOAM, and other musings."
-  socialIcons:
-    - name: "cv"
-      url: "https://github.com/abzrg/cv/raw/master/cv.pdf"
-    - name: "googlescholar"
-      url: "https://scholar.google.com/citations?user=GnrTERgAAAAJ&hl=en"
-    # - name: "twitter"
-    #   url: "https://twitter.com/abzrg"
-    - name: "CFD-online"
-      url: "https://www.cfd-online.com/Forums/members/reverseila.html"
+# params:
+#   homeInfoParams:
+#     Title: "Hello Stranger"
+#     Content: "Welcome to my blog. Here, I will post stuff about
+#     programming, UNIX stuff, maybe OpenFOAM, and other musings."
+#   socialIcons:
+#     - name: "cv"
+#       url: "https://github.com/abzrg/cv/raw/master/cv.pdf"
+#     - name: "googlescholar"
+#       url: "https://scholar.google.com/citations?user=GnrTERgAAAAJ&hl=en"
+#     # - name: "twitter"
+#     #   url: "https://twitter.com/abzrg"
+#     - name: "CFD-online"
+#       url: "https://www.cfd-online.com/Forums/members/reverseila.html"
 
+params:
+  profileMode:
+      enabled: true
+      title: "Ali Bozorgzadeh" # optional default will be site title
+      subtitle: "M.Sc. of Mechanical Engineering and Hobbyist Programmer"
+      imageUrl: "/img/prof_cat.jpg" # optional
+      imageTitle: "A picture of me" # optional
+      imageWidth: 200 # custom size
+      imageHeight: 200 # custom size
+      # buttons:
+      #     - name: Posts
+      #       url: "/archives/"
+
+  socialIcons: # optional
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/ali-bozorgzadeh-90aa07263/"
+      - name: "GoogleScholar"
+        url: "https://scholar.google.com/citations?user=itt9zx8AAAAJ"
+      - name: "Twitter"
+        url: "https://twitter.com/reverseila"
+      - name: "GitHub"
+        url: "https://github.com/abzrg"
+      - name: "StackOverflow"
+        url: "https://stackoverflow.com/users/13041067"
+      # - name: "CV"
+      #   url: "https://github.com/abzrg/cv/raw/master/cv.pdf"
+      - name: "CFD"
+        url: "https://www.cfd-online.com/Forums/members/reverseila.html"
 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Ali's Blog
@@ -65,17 +93,23 @@ params:
     safari_pinned_tab: "favicon/favicon.ico"
 
 
+  # RSS
+  ShowFullTextinRSS: true
 
 
 menu:
   main:
-    - identifier: archives
-      name: 'Archives'
-      url: /archives/
+    - identifier: resume
+      name: 'Resume'
+      url: "https://github.com/abzrg/cv/raw/master/cv.pdf"
       weight: 10
+
+    - identifier: archives
+      name: 'Posts'
+      url: /archives/
+      weight: 20
 
     - identifier: tags
       name: 'Tags'
       url: /tags/
-      weight: 20
-
+      weight: 30
