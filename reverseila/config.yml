@@ -29,7 +29,7 @@ params:
   # images: ["/static/"]
   DateFormat: "January 2, 2006"
 
-  defaultTheme: light # dark, light, auto
+  defaultTheme: dark # dark, light, auto
   disableThemeToggle: false
 
   cover:
