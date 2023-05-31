@@ -22,7 +22,7 @@ params:
   profileMode:
       enabled: true
       title: "Ali Bozorgzadeh" # optional default will be site title
-      subtitle: "M.Sc. of Mechanical Engineering and Hobbyist Programmer"
+      subtitle: "Mechanical Engineer (M.Sc.) and Hobbyist Programmer"
       imageUrl: "/img/prof_cat.jpg" # optional
       imageTitle: "A picture of me" # optional
       imageWidth: 200 # custom size
