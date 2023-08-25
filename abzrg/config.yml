@@ -19,6 +19,9 @@ theme: PaperMod
 #       url: "https://www.cfd-online.com/Forums/members/abzrg.html"
 
 params:
+  # enable math globally
+  math: true
+
   profileMode:
       enabled: true
       title: "Ali Bozorgzadeh" # optional default will be site title
@@ -101,7 +104,7 @@ menu:
   main:
     - identifier: resume
       name: 'Resume'
-      url: "https://github.com/abzrg/cv/raw/master/cv.pdf"
+      url: /resume/
       weight: 10
 
     - identifier: archives
