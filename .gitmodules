@@ -2,3 +2,6 @@
 	path = reverseila/public
 	url = git@github.com:abzrg/abzrg.github.io.git
 	branch = main
+[submodule "reverseila/themes/PaperMod"]
+	path = reverseila/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod
