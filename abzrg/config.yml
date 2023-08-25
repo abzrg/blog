@@ -16,7 +16,7 @@ theme: PaperMod
 #     # - name: "twitter"
 #     #   url: "https://twitter.com/abzrg"
 #     - name: "CFD-online"
-#       url: "https://www.cfd-online.com/Forums/members/reverseila.html"
+#       url: "https://www.cfd-online.com/Forums/members/abzrg.html"
 
 params:
   profileMode:
@@ -37,7 +37,7 @@ params:
       - name: "GoogleScholar"
         url: "https://scholar.google.com/citations?user=itt9zx8AAAAJ"
       # - name: "Twitter"
-      #   url: "https://twitter.com/reverseila"
+      #   url: "https://twitter.com/abzrg"
       - name: "GitHub"
         url: "https://github.com/abzrg"
       - name: "StackOverflow"
