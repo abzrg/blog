@@ -2,6 +2,3 @@
 	path = abzrg/public
 	url = git@github.com:abzrg/abzrg.github.io.git
 	branch = main
-[submodule "abzrg/themes/PaperMod"]
-	path = abzrg/themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod
