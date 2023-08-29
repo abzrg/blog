@@ -26,7 +26,7 @@ params:
       enabled: true
       title: "Ali Bozorgzadeh" # optional default will be site title
       subtitle: "Mechanical Engineer (M.Sc.) and Hobbyist Programmer"
-      imageUrl: "/img/prof_cat.jpg" # optional
+      imageUrl: "/img/prof.jpg" # optional
       imageTitle: "A picture of me" # optional
       imageWidth: 200 # custom size
       imageHeight: 200 # custom size
