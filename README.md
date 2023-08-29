@@ -4,6 +4,7 @@
 
 ```sh
 git clone --recursive git@github.com:abzrg/blog
+cd abzrg/public && git checkout main
 ```
 
 ## To add a new post
@@ -18,6 +19,7 @@ hugo new posts/<asdf>.md
 ```sh
 hugo -t PaperMod
 ```
+
 
 ## Tips
 
