@@ -56,11 +56,11 @@ Now that you have your GPG key set up, you're ready to enable 2FA for GitHub.
 [^1]: This extension allows you to generate One-Time Passwords (OTP) for accounts stored in your pass password store.
   OTPs are commonly used for two-factor authentication (2FA), where you need a temporary code in addition to your regular password to log in securely
 
-1. **Initialize `pass`**: Create a password store associated with your GitHub email.
+1. **Initialize `pass`**: Create a password store associated with your email.
   Note that this is the exact same email address you used to generate the GPG key pair just now.
 
    ```bash
-   pass init your.github@email.com
+   pass init <your email>
    ```
 
 1. **Enable 2FA on GitHub**: Go to your profile Settings on GitHub, and In the "Access" section of the sidebar, click  Password and authentication. Under "Setup authenticator app", download the SVG image (I named it as `qr_code.svg`).
@@ -73,7 +73,8 @@ Now that you have your GPG key set up, you're ready to enable 2FA for GitHub.
 
 1. **Add OTP Secret**: Associate an OTP secret with an entry in your pass password store with the following command.
   You will be prompted to enter the OTP secret.
-  Only enter the portion of the OTP secret from 'otpauth://' to the end, and then press Enter
+  Only enter the portion of the OTP secret from 'otpauth://' to the end, and then press Enter.
+  Note that you can pick another name other than `github2fa`.
 
    ```bash
    pass otp add github2fa
