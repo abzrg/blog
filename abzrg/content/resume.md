@@ -59,13 +59,14 @@ B.Sc. in Mechanical Engineering, Babol Noshirvani University Of Technology
 ## Publication
 
 - 2023
-  - Numerical Investigation of Separation of Particle in a viscoelastic medium in a microchannel.
+  - Numerical Investigation of Separation of Particles in a Visco-elastic Medium in a Microchannel (_in prep_).
 
   <!-- - Numerical Investigation of application of visco-elastic material in Dielectrophoretic Particle Separation (_in prep_) -->
 
-  - Two Dimensional Simulation of Capacitive Deionization using OpenFOAM (_Domestic Conference Paper_, _in Persian_, _submitted_)
-- 2022
+  <!-- - Two Dimensional Simulation of Capacitive Deionization using OpenFOAM (_Domestic Conference Paper_, _in Persian_, _submitted_) -->
+
   - Reza Derakhshan, __Ali Bozorgzadeh__, and Abas Ramiar. "Numerical Investigation of Ternary Particle Separation in a Microchannel with a Wall-Mounted Obstacle Using Dielectrophoresis." Journal of Chromatography A (2023) : 464079. ([_link_](https://www.sciencedirect.com/science/article/pii/S0021967323003059))
+
 - 2020
   - Masoud Outokesh, Seyed Soheil Mousavi Ajarostaghi, __Ali Bozorgzadeh__, and Kurosh Sedighi. "Numerical evaluation of the effect of utilizing twisted tape with curved profile as a turbulator on heat transfer enhancement in a pipe." Journal of Thermal Analysis and Calorimetry 140, no. 3 (2020) : 1537-1553. ([_link_](https://link.springer.com/article/10.1007/s10973-020-09336-0))
 
